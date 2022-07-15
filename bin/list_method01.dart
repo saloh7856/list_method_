@@ -8,4 +8,11 @@
         list: return answer
 */
 
-void main() {}
+List func(String x){
+  List l=<String>['anor','olma','glos','olcha'];
+  l.add(x);
+  return l;
+}
+void main(){
+  print(func('zardoli'));
+}
