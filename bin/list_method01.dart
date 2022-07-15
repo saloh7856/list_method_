@@ -9,10 +9,10 @@
 */
 
 List func(String x){
-  List l=<String>['anor','olma','glos','olcha'];
+  List l=<String>["apple", "kiwi"];
   l.add(x);
   return l;
 }
 void main(){
-  print(func('zardoli'));
+  print(func("banana"));
 }
