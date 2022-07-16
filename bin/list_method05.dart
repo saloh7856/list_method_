@@ -9,7 +9,7 @@
     Returns:
         list: return answer
 */
-List func(List l,List s,int i){ 
+List func(List l,List s){ 
   l.addAll(s);
   return l;
 }
