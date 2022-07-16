@@ -8,11 +8,10 @@
         list: return answer
 */
 
-List func(String x){
-  List l=<String>["apple", "kiwi"];
-  l.add(x);
-  return l;
+List func(List m,String x){
+  m.add(x);
+  return m;
 }
 void main(){
-  print(func("banana"));
+  print(func(['apple', 'banana'], 'orange'));
 }
