@@ -9,4 +9,11 @@
         list: return answer 
 */
 
-void main() {}
+List func(List l,String x,int i){
+  l.insert(i,x);
+  return l;
+}
+void main(){
+  print(func(['apple', 'banana'], 'orange',1));
+}
+
