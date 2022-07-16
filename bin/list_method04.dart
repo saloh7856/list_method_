@@ -8,4 +8,11 @@
         list: return answer
 */
 
-void main() {}
+num func(List l,int i){ 
+  
+  return l.removeAt(i);
+}
+void main(){
+  print(func([1,2,3,4,5],2));
+}
+
