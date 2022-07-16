@@ -11,11 +11,11 @@
 */
 List func(List l,List s,int i){ 
   l.add(s.removeAt(i));
+  
   l.addAll(s);
   return l;
 }
 void main(){
-  
   print(func([1,2,3,4,5],[6,7,8,9],0));
 }
 
