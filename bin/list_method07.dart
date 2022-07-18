@@ -6,5 +6,19 @@
     Returns:
         int: return answer
 */
+num func(List x){
+    int i=0;
+    num a=0; 
+    int l=x.length;
+    while(l>i){
+      if(x[i]==0){
+        a+=1;
+        }
+        i+=1;
+        }
+    return  a; 
+}
 
-void main() {}
+void main(){   
+print(func([0,1,0,0,0,1,0]));
+}
