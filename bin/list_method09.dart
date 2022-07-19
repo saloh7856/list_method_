@@ -7,4 +7,26 @@
         list: return answer
 */
 
-void main() {}
+List func(List x){
+    List y=[];
+    int i=0;
+    int l=x.length;
+    while(l>i){
+      if('apple'==x[i]){
+        y.add(i);
+       }
+      i+=1;
+        }
+    return y;
+}
+
+
+void main(){
+  
+  print(func(['apple','orange','apple','apple','kiwi','apple']));
+}
+
+
+
+
+
