@@ -6,5 +6,26 @@
     Returns:
         int: return answer
 */
+num func(List x){
+    int i=0;
+    num a=0;
+    int l=x.length;
+    while(l>i){
+      if('apple'==x[i]){
+        a+=1;
 
-void main() {}
+       }
+      i+=1;
+        }
+    return  a; 
+}
+
+
+void main(){
+  
+  print(func(['apple','oramge','apple','apple','kiwi','apple']));
+}
+
+
+
+
